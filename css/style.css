@@ -28,11 +28,12 @@ CSS INDEX
 
 
 .socials li a {
-  font-size:1.8rem;
+  font-size:2rem;
 }
 .socials li a :hover{
   color:var(--colorPrimary);
-  
+  scale: 2;
+  transition-duration: .5s;
 }
 * {
   margin: 0;

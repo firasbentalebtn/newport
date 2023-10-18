@@ -1,87 +1,664 @@
-<!DOCTYPE html><html lang="en"><head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi">
-    <title>Firas Bentaleb</title>
-    <link rel="icon" type="image/png" href="images/favicon.png">
-    <link rel="stylesheet" href="css/font-awesome-pro.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/scroll_button.css">
-    <link rel="stylesheet" href="css/plugin.css">
-    <link rel="stylesheet" href="css/spacing.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-  </head>
+<!DOCTYPE html>
+<html lang="en">
 
-  <body>
-    <!--================================
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi">
+  <title>Firas Bentaleb</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" href="css/font-awesome-pro.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/scroll_button.css">
+  <link rel="stylesheet" href="css/plugin.css">
+  <link rel="stylesheet" href="css/spacing.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+  <!--================================
         PRELOADER START
     =================================-->
-    <div class="preloader">
-      <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
-        <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
-      </svg>
-      <h5 class="preloader-text">Firas-Bentaleb</h5>
-    </div>
-    <!--================================
+  <div class="preloader">
+    <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+      <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+    </svg>
+    <h5 class="preloader-text">Firas-Bentaleb</h5>
+  </div>
+  <!--================================
         PRELOADER END
     =================================-->
-    <!--================================
+  <!--================================
         MENU START
     =================================-->
-    <nav class="navbar navbar-expand-lg main_menu">
-      <div class="container main_menu_bg">
-        <a class="navbar-brand " href="index.html">
-                  <h3>Firas Bentaleb</h3>
+  <nav class="navbar navbar-expand-lg main_menu">
+    <div class="container main_menu_bg">
+      <a class="navbar-brand " href="index.html">
+        <h3>Firas Bentaleb</h3>
 
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fa-sharp fa-regular fa-bars bar_icon"></i>
-          <i class="fa-regular fa-xmark close_icon"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav m-auto">
-            <li class="nav-item">
-              <a class="nav-link text_hover_animaiton active" href="#">Home </a>
-              
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link text_hover_animaiton" href="#service">services
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text_hover_animaiton" href="#skills">Experiences</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text_hover_animaiton" href="#blogs">Projects
-              </a>
-            </li>
-         
-            <li class="nav-item">
-              <a class="nav-link text_hover_animaiton" href="#counter">contact
-              </a>
-            </li>
-          </ul>
-          <span class="toggle_icon c-pointer" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-sharp fa-sharp fa-regular fa-bars bar_icon-staggered"></i></span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-sharp fa-regular fa-bars bar_icon"></i>
+        <i class="fa-regular fa-xmark close_icon"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item">
+            <a class="nav-link text_hover_animaiton active" href="#">Home </a>
+
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text_hover_animaiton" href="#service">services
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text_hover_animaiton" href="#skills">Experiences</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text_hover_animaiton" href="#blogs">Projects
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link text_hover_animaiton" href="#counter">contact
+            </a>
+          </li>
+        </ul>
+        <span class="toggle_icon c-pointer" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+          aria-controls="offcanvasRight"><i class="fa-sharp fa-sharp fa-regular fa-bars bar_icon-staggered"></i></span>
+      </div>
+    </div>
+  </nav>
+
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight">
+    <div class="offcanvas-header">
+      <a class="offcanvas-logo" href="index_2.html">
+        <img src="images/logo2.png" alt="ZAYAN" class="img-fluid w-100">
+      </a>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+        <i class="fa-regular fa-xmark"></i>
+      </button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="tf__design_form offcanvas_form">
+
+        <div class="offcanvas_contact_form">
+          <h4 class="offcanvas_title">Get In Touch</h4>
+          <br>
+          <p class="">
+            Ready to bring your ideas to life? Reach out and let's start the creative journey together
+          </p>
+          <form id="contact-form">
+            <input class="" id="name" name="name" type="text" placeholder="Your Name">
+            <input class="" id="email" name="email" type="email" placeholder="Your Email">
+            <textarea class="" id="message" name="message" rows="4" placeholder="Message"></textarea>
+            <button type="submit" class="common_btn submit-btn">submit now</button>
+          </form>
         </div>
       </div>
-    </nav>
+    </div>
+  </div>
+  <!--================================
+        MENU END
+    =================================-->
 
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight">
-      <div class="offcanvas-header">
-        <a class="offcanvas-logo" href="index_2.html">
-          <img src="images/logo2.png" alt="ZAYAN" class="img-fluid w-100">
-        </a>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
-          <i class="fa-regular fa-xmark"></i>
-        </button>
+  <!--================================
+        BANNER START
+    =================================-->
+  <section class="tf__banner banner" id="banner" style="background: url(images/banner.jpg)">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-xl-6 col-lg-8">
+          <div class="tf__banner_text">
+            <h1>
+              Hi, I'm Firas! Creative
+              <span class="cd-headline rotate-1">
+                <!-- ANIMATE TEXT VALUES: zoom, rotate-1, letters type, letters rotate-2, loading-bar, slide, clip, letters rotate-3, letters scale, push,  -->
+                <span class="cd-words-wrapper">
+                  <b class="is-visible">Web Developer</b>
+                  <b>UI/UX Designer</b>
+                </span>
+              </span>
+            </h1>
+            <p>
+              Looking for a web developer who can turn your digital dreams into reality? Search no more. With
+              3 years of hands-on experience in front-end technologies like HTML, CSS, JavaScript, React, and Vue.js,
+              and a strong backend expertise, I'm ready to bring your vision to life from start to finish.</p>
+            <ul class="socials">
+              <li>
+                <a href="https://github.com/firasbentalebtn" target="_blank">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/firas-bentaleb-a517561ba/" target="_blank">
+                  <i class="fa-brands fa-linkedin"></i> </a>
+              </li>
+              <li>
+                <a href="https://www.behance.net/firasbentaleb" target="_blank">
+                  <i class="fa-brands fa-behance"></i> </a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a id="downloadPdf" class="common_btn" href="#">Download Cv <i
+                    class="fa-solid fa-arrow-down-to-line"></i></a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-5 col-lg-4">
+          <div class="tf__banner_img">
+            <div class="img">
+              <img src="images/BANNERIMG.png" alt="ZYAN" class="img-fluid w-100">
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="offcanvas-body">
-        <div class="tf__design_form offcanvas_form">
-          
-          <div class="offcanvas_contact_form">
-            <h4 class="offcanvas_title">Get In Touch</h4>
+    </div>
+  </section>
+  <!--================================
+        BANNER END
+    =================================-->
+  <!--================================
+        SERVICE START
+    =================================-->
+  <section class="tf__service pt_130 xs_pt_80" id="service">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9 m-auto">
+          <div class="tf__section_heading mb_40">
+            <h5 class="has-animation">MY serivce</h5>
+            <h2 style="text-align: centers;" class="has-animation">
+              I specialize in building dynamic,
+              responsive user interfaces using the
+              latest web technologies.
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="tf__single_service fade_left" data-trigerid="service">
+            <span>
+              <img src="images/website-design.svg" alt="service" class="svg w-100">
+            </span>
+            <h3>Static Website Development</h3>
+
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="tf__single_service fade_left" data-trigerid="service">
+            <span>
+              <img src="images/logo-design.svg" alt="service" class="svg w-100">
+            </span>
+            <h3>UI/UX Design</h3>
+
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="tf__single_service fade_left" data-trigerid="service">
+            <span>
+              <img src="images/app-development.svg" alt="service" class="svg w-100">
+            </span>
+            <h3>Apps Development</h3>
+
+          </div>
+        </div>
+      </div>
+      <div class="row">
+
+        <div class="col-lg-4 col-md-6">
+          <div class="tf__single_service fade_left" data-trigerid="service">
+            <span>
+              <img src="images/logo-design.svg" alt="service" class="svg w-100">
+            </span>
+            <h3>System administration</h3>
+
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="tf__single_service fade_left" data-trigerid="service">
+            <span>
+              <img src="images/app-development.svg" alt="service" class="svg w-100">
+            </span>
+            <h3>Full Stack Applications</h3>
+
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="tf__single_service fade_left" data-trigerid="service">
+            <span>
+              <img src="images/website-design.svg" alt="service" class="svg w-100">
+            </span>
+            <h3>Graphic Design</h3>
+
+          </div>
+        </div>
+      </div>
+      <br><br>
+    </div>
+  </section>
+
+
+
+
+  <!--================================
+        SKILLS START
+    =================================-->
+  <section class="tf__skills pt_115 xs_pt_75 pb_70 xs_pb_30" id="skills">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-10 col-lg-8 m-auto mb_60">
+          <div class="tf__section_heading mb_40">
+            <h5 class="has-animation">Experiences &amp; Skills</h5>
+            <h2 class="has-animation">
+              WHAT I HAVE DONE SO FAR <br>
+
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-6 col-lg-6">
+          <div class="tf__single_skills fade_bottom" data-trigerid="skills" data-stagger=".13">
+            <span> EOS Academy(Volunteering)</span>
+            <span> July 2023 - Present</span>
+
+            <h3>UI/UX Designer and Front-End Web developer</h3>
+            <p>
+              * Created UI/UX redesigns for EOS Academy's WordPress website.
+            </p>
             <br>
+            <p>
+              * Implemented the Figma-designed UI/UX on WordPress using Elementor.
+            </p>
+            <br>
+
+            <p>
+              * Assisted in server management and troubleshooting.
+            </p>
+            <br>
+
+
+          </div>
+        </div>
+
+        <div class="col-xl-6 col-lg-6">
+          <div class="tf__single_skills fade_bottom" data-trigerid="skills" data-stagger=".13">
+            <span> Tiktak pro</span>
+            <span> November 2022 - February 2023</span>
+
+            <h3>UI/UX Designer and Front-End developer</h3>
+            <p>
+              * Worked as a front-end web developer at Tiktak Pro, an e-commerce platform based in Tunisia.
+            </p>
+            <br>
+            <p>
+              * Managed the design for templates in the website builder integrated in the platform using Django and
+              Vue.js.
+            </p>
+            <br>
+
+            <p>
+              * Gained experience in internationalization (i18n) and added custom languages and dynamic translations
+              with Django.
+            </p>
+            <br>
+
+            <p>
+              * Learned to work with dynamic CSS variables in the backoffice to allow users to customize their shop
+              template.
+            </p>
+            <br>
+
+            <p>
+              * Worked closely with the back-end team to ensure compatibility between the front-end design and dynamic
+              CSS.
+            </p>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6">
+          <div class="tf__single_skills fade_bottom" data-trigerid="skills" data-stagger=".13">
+            <span> Orange Tunisia</span>
+            <span> Jan 2021 - Feb 2022</span>
+
+            <h3>UI/UX Designer and Front-End developer</h3>
+            <p>
+              * As part of the Orange Summer Challenge in 2020, I worked as a UI/UX designer and front-end developer on
+              a project called Eaze, which aimed to improve the shopping experience through the development of a smart
+              cart solution. My contributions to the project included the creation and design of mobile and web
+              interfaces, as well as the development of the showcase site to present the product. In addition to my
+              design work, I also played a key role in creating the brand and logo for the product.
+            </p>
+            <br>
+            <p>
+              * One of the key challenges we faced during the project was ensuring a seamless user experience across
+              multiple platforms and devices. To address this, I collaborated closely with cross-functional teams to
+              ensure that the interfaces we created were intuitive and user-friendly. In addition, I experimented with
+              new design tools and techniques to create a visually engaging experience for users.
+            </p>
+            <br>
+            <p> * Thanks to our team's efforts, the Eaze project was a success, resulting in increased user engagement
+              and sales. I am proud of the work I did on this project and believe that my creativity and problem-solving
+              abilities would make me a valuable asset to any team.</p>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6">
+          <div class="tf__single_skills fade_bottom" data-trigerid="skills" data-stagger=".25">
+            <span>FreeLance</span>
+
+            <span>Jan 2020- Present</span>
+            <h3>UI/UX Designer,Front-End developer,Mobile Developer(Android)</h3>
+            <p>
+              An environmental project called Fakrounet which is a mobile French: fluentapplication with the aim of
+              tracking the occurrence of sea turtlesvia GPS and Google Map services to reduce the random hunting of sea
+              turtles. (Java/Firebase)
+            </p>
+            <p>A complete redesign of the user interface of an existing Tunisiane-commerce site called baddel.tn in
+              order to respect a modern and responsive design. (AdobeXD, Figma & Adobe Illustrator)</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-6 col-lg-6">
+          <div class="tf__team_skills_bar_single fade_bottom" data-trigerid="skills" data-stagger=".25">
+            <p>HTML/CSS</p>
+            <div id="bar1" class="barfiller">
+              <div class="tipWrap">
+                <span class="tip"></span>
+              </div>
+              <span class="fill" data-percentage="75"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6">
+          <div class="tf__team_skills_bar_single fade_bottom" data-trigerid="skills" data-stagger=".25">
+            <p>TailwindCss ,bootstrap ...</p>
+            <div id="bar2" class="barfiller">
+              <div class="tipWrap">
+                <span class="tip"></span>
+              </div>
+              <span class="fill" data-percentage="90"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6">
+          <div class="tf__team_skills_bar_single fade_bottom" data-trigerid="skills" data-stagger=".25">
+            <p>JavaScript</p>
+            <div id="bar3" class="barfiller">
+              <div class="tipWrap">
+                <span class="tip"></span>
+              </div>
+              <span class="fill" data-percentage="80"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6">
+          <div class="tf__team_skills_bar_single fade_bottom" data-trigerid="skills" data-stagger=".25">
+            <p>Figma,Adobe XD</p>
+            <div id="bar4" class="barfiller">
+              <div class="tipWrap">
+                <span class="tip"></span>
+              </div>
+              <span class="fill" data-percentage="70"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6">
+          <div class="tf__team_skills_bar_single fade_bottom" data-trigerid="skills" data-stagger=".25">
+            <p>React-Js</p>
+            <div id="bar5" class="barfiller">
+              <div class="tipWrap">
+                <span class="tip"></span>
+              </div>
+              <span class="fill" data-percentage="70"></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6">
+          <div class="tf__team_skills_bar_single fade_bottom" data-trigerid="skills" data-stagger=".25">
+            <p>Adobe Products</p>
+            <div id="bar6" class="barfiller">
+              <div class="tipWrap">
+                <span class="tip"></span>
+              </div>
+              <span class="fill" data-percentage="80"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--================================
+        SKILLS END
+    =================================-->
+
+
+
+  <!--================================
+        BRAND START
+    =================================-->
+  <div class="tf__brand mt_120 xs_mt_80">
+    <div class="row">
+      <div class="col-12">
+        <div class="marquee_animi">
+          <ul>
+            <li>* React js</li>
+            <li>* JavaScript</li>
+            <li>* Sass</li>
+            <li>* Figma</li>
+            <li>* Wordpress</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--================================
+        BRAND END
+    =================================-->
+
+  <!--================================
+        BLOG START
+    =================================-->
+  <section class="tf__blog pt_125 xs_pt_75 pb_40 xs_pb_0" id="blogs">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-8 col-lg-9 mb_30">
+          <div class="tf__section_heading">
+            <h5 class="has-animation">My Projects</h5>
+            <h2 class="has-animation">
+              My Web Development Projects
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-4 col-md-6">
+          <div class="tf__slingle_blog fade_left" data-trigerid="blogs">
+            <a href="blog_details.html" class="tf__blog_img" data-cursor="read <br> more">
+              <img src="images/elvi.png" alt="blog" class="img-fluid w-100">
+            </a>
+            <div class="tf__blog_text">
+              <span>Elvie-Formation
+              </span>
+              <br>
+              <a target="_blank" href="https://firasbentalebtn.github.io/elvi/index.html">Check it out</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6">
+          <div class="tf__slingle_blog fade_left" data-trigerid="blogs">
+            <a href="blog_details.html" class="tf__blog_img" data-cursor="read <br> more">
+              <img src="images/eaze.png " alt="blog" class="img-fluid w-100">
+            </a>
+            <div class="tf__blog_text">
+              <span>Eaze</span>
+              <br>
+              <a target="_blank" href="https://firasbentalebtn.github.io/eaze/">Check it out</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6">
+          <div class="tf__slingle_blog fade_left" data-trigerid="blogs">
+            <a href="blog_details.html" class="tf__blog_img" data-cursor="read <br> more">
+              <img src="images/thed.png" alt="blog" class="img-fluid w-100">
+            </a>
+            <div class="tf__blog_text">
+              <span>Thed Crypto
+              </span>
+              <br>
+              <a target="_blank" href="https://firasbentalebtn.github.io/thed3/">Check it out</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-xl-4 col-md-6">
+          <div class="tf__slingle_blog fade_left" data-trigerid="blogs">
+            <a href="blog_details.html" class="tf__blog_img" data-cursor="read <br> more">
+              <img src="images/yt-clone.png" alt="blog" class="img-fluid w-100">
+            </a>
+            <div class="tf__blog_text">
+              <span>Youtube Clone
+              </span>
+              <br>
+              <a href="https://youtubereactcloneapp.netlify.app/" target="_blank">Check it out</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6">
+          <div class="tf__slingle_blog fade_left" data-trigerid="blogs">
+            <a href="blog_details.html" class="tf__blog_img" data-cursor="read <br> more">
+              <img src="images/eos.png" alt="blog" class="img-fluid w-100">
+            </a>
+            <div class="tf__blog_text">
+              <span>Eos Academy
+              </span>
+              <br>
+              <a href="#" target="_blank">Coming Soon</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-xl-8 col-lg-9 mb_30">
+          <div class="tf__section_heading">
+            <h5 class="has-animation">My Projects</h5>
+            <h2 class="has-animation">
+              My UI/UX Projects
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-4 col-md-6">
+          <div class="tf__slingle_blog fade_left" data-trigerid="blogs">
+            <a href="blog_details.html" class="tf__blog_img" data-cursor="read <br> more">
+              <img src="images/eaze-ui.png" alt="blog" class="img-fluid w-100">
+            </a>
+            <div class="tf__blog_text">
+              <span>Eaze
+              </span>
+              <br>
+              <a target="_blank" href="https://www.behance.net/gallery/138599791/Eaze">Check it out</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6">
+          <div class="tf__slingle_blog fade_left" data-trigerid="blogs">
+            <a href="blog_details.html" class="tf__blog_img" data-cursor="read <br> more">
+              <img src="images/cibo.png " alt="blog" class="img-fluid w-100">
+            </a>
+            <div class="tf__blog_text">
+              <span>Cibo</span>
+              <br>
+              <a target="_blank" href="https://www.behance.net/gallery/138600015/Ethnic-food-app">Check it out</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6">
+          <div class="tf__slingle_blog fade_left" data-trigerid="blogs">
+            <a href="blog_details.html" class="tf__blog_img" data-cursor="read <br> more">
+              <img src="images/baddal.png" alt="blog" class="img-fluid w-100">
+            </a>
+            <div class="tf__blog_text">
+              <span>baddal
+              </span>
+              <br>
+              <a target="_blank" href="https://www.behance.net/gallery/145847259/Baddeltn">Check it out</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-xl-4 col-md-6">
+          <div class="tf__slingle_blog fade_left" data-trigerid="blogs">
+            <a href="blog_details.html" class="tf__blog_img" data-cursor="read <br> more">
+              <img src="images/eos.png" alt="blog" class="img-fluid w-100">
+            </a>
+            <div class="tf__blog_text">
+              <span>Eos Academy
+              </span>
+              <br>
+              <a href="https://www.behance.net/gallery/181917333/Eos-Academy" target="_blank">Check it out</a>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+  <!--================================
+        BLOG END
+    =================================-->
+  <!--================================
+        DESIGN START
+    =================================-->
+  <section class="tf__design mt_135 xs_mt_40 mb_120 xs_mb_80" id="counter">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-6 col-lg-6">
+          <div class="tf__design_text">
+            <h2>Connect <span>with a Click.</span></h2>
+            <p class="">
+              I'm excited to hear from you and explore the possibilities of working together. Whether you have a project
+              idea, a question, or simply want to connect, feel free to drop me a message using the form below. I'll get
+              back to you as soon as possible. Let's turn your vision into reality!
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-xl-6 col-md-6">
+              <div class="tf__design_counter fade_left" data-trigerid="counter">
+                <span class="icon">
+                  <img src="images/complete-project.svg" alt="counter" class="svg img-fluid w-100">
+                </span>
+                <h3><span class="counter">12+</span></h3>
+                <p>Completed project</p>
+              </div>
+            </div>
+            <div class="col-xl-6 col-md-6">
+              <div class="tf__design_counter fade_left" data-trigerid="counter">
+                <span class="icon">
+                  <img src="images/client-review.svg" alt="counter" class="img-fluid w-100 svg">
+                </span>
+                <h3><span class="counter">3</span>+</h3>
+                <p>Years experience</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6">
+          <div class="tf__design_form">
+            <h2 class="has-animation">CONNECT WITH ME?</h2>
             <p class="">
               Ready to bring your ideas to life? Reach out and let's start the creative journey together
             </p>
@@ -95,646 +672,96 @@
         </div>
       </div>
     </div>
-    <!--================================
-        MENU END
-    =================================-->
-
-    <!--================================
-        BANNER START
-    =================================-->
-    <section class="tf__banner banner" id="banner" style="background: url(images/banner.jpg)">
-      <div class="container">
-        <div class="row justify-content-between">
-          <div class="col-xl-6 col-lg-8">
-            <div class="tf__banner_text">
-              <h1>
-                Hi, I'm Firas! Creative
-                <span class="cd-headline rotate-1">
-                  <!-- ANIMATE TEXT VALUES: zoom, rotate-1, letters type, letters rotate-2, loading-bar, slide, clip, letters rotate-3, letters scale, push,  -->
-                  <span class="cd-words-wrapper">
-                    <b class="is-visible">Web Developer</b>
-                    <b>UI/UX Designer</b>
-                  </span>
-                </span>
-              </h1>
-              <p>
-                I'm a Skilled front-end developer proficient in HTML, CSS, and JavaScript with 3 years of experience. Proficient in React, Vue.js frameworks, and passionate about designing and building beautiful, intuitive, and responsive user interfaces.
-              </p>
-              <ul class="socials">
-                <li>
-                  <a href="https://github.com/firasbentalebtn" target="_blank">
-                    <i class="fa-brands fa-github"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/in/firas-bentaleb-a517561ba/" target="_blank">
-                    <i class="fa-brands fa-linkedin"></i>                  </a>
-                </li>
-                <li>
-                  <a href="https://www.behance.net/firasbentaleb" target="_blank">
-                    <i class="fa-brands fa-behance"></i>                </a>
-                </li>
-              </ul>
-              <ul>
-                <li>
-                  <a id="downloadPdf" class="common_btn" href="#">Download Cv <i class="fa-solid fa-arrow-down-to-line"></i></a>
-                </li>
-                
-              </ul>
-            </div>
-          </div>
-          <div class="col-xl-5 col-lg-4">
-            <div class="tf__banner_img">
-              <div class="img">
-                <img src="images/BANNERIMG.png" alt="ZYAN" class="img-fluid w-100">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--================================
-        BANNER END
-    =================================-->
-    <!--================================
-        SERVICE START
-    =================================-->
-    <section class="tf__service pt_130 xs_pt_80" id="service">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-9 m-auto">
-            <div class="tf__section_heading mb_40">
-              <h5 class="has-animation">MY serivce</h5>
-              <h2 style="text-align: centers;" class="has-animation">
-                I specialize in building dynamic,
-                responsive user interfaces using the
-                latest web technologies. 
-              </h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6">
-            <div class="tf__single_service fade_left" data-trigerid="service">
-              <span>
-                <img src="images/website-design.svg" alt="service" class="svg w-100">
-              </span>
-              <h3>Static Website Development</h3>
-            
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="tf__single_service fade_left" data-trigerid="service">
-              <span>
-                <img src="images/logo-design.svg" alt="service" class="svg w-100">
-              </span>
-              <h3>UI/UX Design</h3>
-              
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="tf__single_service fade_left" data-trigerid="service">
-              <span>
-                <img src="images/app-development.svg" alt="service" class="svg w-100">
-              </span>
-              <h3>Apps Development</h3>
-             
-            </div>
-          </div>
-        </div>
-        <div class="row">
-         
-          <div class="col-lg-4 col-md-6">
-            <div class="tf__single_service fade_left" data-trigerid="service">
-              <span>
-                <img src="images/logo-design.svg" alt="service" class="svg w-100">
-              </span>
-              <h3>System administration</h3>
-              
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="tf__single_service fade_left" data-trigerid="service">
-              <span>
-                <img src="images/app-development.svg" alt="service" class="svg w-100">
-              </span>
-              <h3>Full Stack Applications</h3>
-             
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="tf__single_service fade_left" data-trigerid="service">
-              <span>
-                <img src="images/website-design.svg" alt="service" class="svg w-100">
-              </span>
-              <h3>Graphic Design</h3>
-            
-            </div>
-          </div>
-        </div>
-        <br><br>
-      </div>
-    </section>
-   
-
-    
-
-    <!--================================
-        SKILLS START
-    =================================-->
-    <section class="tf__skills pt_115 xs_pt_75 pb_70 xs_pb_30" id="skills">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-10 col-lg-8 m-auto mb_60">
-            <div class="tf__section_heading mb_40">
-              <h5 class="has-animation">Experiences &amp; Skills</h5>
-              <h2 class="has-animation">
-                WHAT I HAVE DONE SO FAR <br> 
-
-              </h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xl-6 col-lg-6">
-            <div class="tf__single_skills fade_bottom" data-trigerid="skills" data-stagger=".13">
-              <span> EOS Academy(Volunteering)</span>
-              <span> July 2023 - Present</span>
-
-              <h3>UI/UX Designer and Front-End Web developer</h3>
-              <p>
-                * Created UI/UX redesigns for EOS Academy's WordPress website.
-              </p>
-              <br>
-              <p>
-                * Implemented the Figma-designed UI/UX on WordPress using Elementor.
-              </p>
-              <br>
-
-              <p>
-                * Assisted in server management and troubleshooting.
-              </p>
-              <br>
-
-             
-            </div>
-          </div>
-         
-          <div class="col-xl-6 col-lg-6">
-            <div class="tf__single_skills fade_bottom" data-trigerid="skills" data-stagger=".13">
-              <span> Tiktak pro</span>
-              <span> November 2022 - February 2023</span>
-
-              <h3>UI/UX Designer and Front-End developer</h3>
-              <p>
-                * Worked as a front-end web developer at Tiktak Pro, an e-commerce platform based in Tunisia.
-              </p>
-              <br>
-              <p>
-                * Managed the design for templates in the website builder integrated in the platform using Django and Vue.js.
-              </p>
-              <br>
-
-              <p>
-                * Gained experience in internationalization (i18n) and added custom languages and dynamic translations with Django.
-              </p>
-              <br>
-
-              <p>
-                * Learned to work with dynamic CSS variables in the backoffice to allow users to customize their shop template.
-              </p>
-              <br>
-
-              <p>
-                * Worked closely with the back-end team to ensure compatibility between the front-end design and dynamic CSS.
-              </p>
-            </div>
-          </div>
-          <div class="col-xl-6 col-lg-6">
-            <div class="tf__single_skills fade_bottom" data-trigerid="skills" data-stagger=".13">
-              <span> Orange Tunisia</span>
-              <span> Jan 2021 - Feb 2022</span>
-
-              <h3>UI/UX Designer and Front-End developer</h3>
-              <p>
-                * As part of the Orange Summer Challenge in 2020, I worked as a UI/UX designer and front-end developer on a project called Eaze, which aimed to improve the shopping experience through the development of a smart cart solution. My contributions to the project included the creation and design of mobile and web interfaces, as well as the development of the showcase site to present the product. In addition to my design work, I also played a key role in creating the brand and logo for the product.
-              </p>
-              <br>
-              <p>
-                * One of the key challenges we faced during the project was ensuring a seamless user experience across multiple platforms and devices. To address this, I collaborated closely with cross-functional teams to ensure that the interfaces we created were intuitive and user-friendly. In addition, I experimented with new design tools and techniques to create a visually engaging experience for users.
-              </p>
-              <br>
-              <p> * Thanks to our team's efforts, the Eaze project was a success, resulting in increased user engagement and sales. I am proud of the work I did on this project and believe that my creativity and problem-solving abilities would make me a valuable asset to any team.</p>
-            </div>
-          </div>  
-          <div class="col-xl-6 col-lg-6">
-            <div class="tf__single_skills fade_bottom" data-trigerid="skills" data-stagger=".25">
-              <span>FreeLance</span>
-
-              <span>Jan 2020- Present</span>
-              <h3>UI/UX Designer,Front-End developer,Mobile Developer(Android)</h3>
-              <p>
-                An environmental project called Fakrounet which is a mobile French: fluentapplication with the aim of tracking the occurrence of sea turtlesvia GPS and Google Map services to reduce the random hunting of sea turtles. (Java/Firebase)
-              </p>
-              <p>A complete redesign of the user interface of an existing Tunisiane-commerce site called baddel.tn in order to respect a modern and responsive design. (AdobeXD, Figma & Adobe Illustrator)</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xl-6 col-lg-6">
-            <div class="tf__team_skills_bar_single fade_bottom" data-trigerid="skills" data-stagger=".25">
-              <p>HTML/CSS</p>
-              <div id="bar1" class="barfiller">
-                <div class="tipWrap">
-                  <span class="tip"></span>
-                </div>
-                <span class="fill" data-percentage="75"></span>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-6 col-lg-6">
-            <div class="tf__team_skills_bar_single fade_bottom" data-trigerid="skills" data-stagger=".25">
-              <p>TailwindCss ,bootstrap ...</p>
-              <div id="bar2" class="barfiller">
-                <div class="tipWrap">
-                  <span class="tip"></span>
-                </div>
-                <span class="fill" data-percentage="90"></span>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-6 col-lg-6">
-            <div class="tf__team_skills_bar_single fade_bottom" data-trigerid="skills" data-stagger=".25">
-              <p>JavaScript</p>
-              <div id="bar3" class="barfiller">
-                <div class="tipWrap">
-                  <span class="tip"></span>
-                </div>
-                <span class="fill" data-percentage="80"></span>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-6 col-lg-6">
-            <div class="tf__team_skills_bar_single fade_bottom" data-trigerid="skills" data-stagger=".25">
-              <p>Figma,Adobe XD</p>
-              <div id="bar4" class="barfiller">
-                <div class="tipWrap">
-                  <span class="tip"></span>
-                </div>
-                <span class="fill" data-percentage="70"></span>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-6 col-lg-6">
-            <div class="tf__team_skills_bar_single fade_bottom" data-trigerid="skills" data-stagger=".25">
-              <p>React-Js</p>
-              <div id="bar5" class="barfiller">
-                <div class="tipWrap">
-                  <span class="tip"></span>
-                </div>
-                <span class="fill" data-percentage="70"></span>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-6 col-lg-6">
-            <div class="tf__team_skills_bar_single fade_bottom" data-trigerid="skills" data-stagger=".25">
-              <p>Adobe Products</p>
-              <div id="bar6" class="barfiller">
-                <div class="tipWrap">
-                  <span class="tip"></span>
-                </div>
-                <span class="fill" data-percentage="80"></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--================================
-        SKILLS END
-    =================================-->
-
-   
-
-    <!--================================
-        BRAND START
-    =================================-->
-    <div class="tf__brand mt_120 xs_mt_80">
-      <div class="row">
-        <div class="col-12">
-          <div class="marquee_animi">
-            <ul>
-              <li>* React js</li>
-              <li>* JavaScript</li>
-              <li>* Sass</li>
-              <li>* Figma</li>
-              <li>* Wordpress</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--================================
-        BRAND END
-    =================================-->
-
-    <!--================================
-        BLOG START
-    =================================-->
-    <section class="tf__blog pt_125 xs_pt_75 pb_40 xs_pb_0" id="blogs">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-8 col-lg-9 mb_30">
-            <div class="tf__section_heading">
-              <h5 class="has-animation">My Projects</h5>
-              <h2 class="has-animation">
-                My Web Development Projects
-              </h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xl-4 col-md-6">
-            <div class="tf__slingle_blog fade_left" data-trigerid="blogs">
-              <a href="blog_details.html" class="tf__blog_img" data-cursor="read <br> more">
-                <img src="images/elvi.png" alt="blog" class="img-fluid w-100">
-              </a>
-              <div class="tf__blog_text">
-                <span>Elvie-Formation
-                </span>
-               <br>
-                <a target="_blank" href="https://firasbentalebtn.github.io/elvi/index.html">Check it out</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-4 col-md-6">
-            <div class="tf__slingle_blog fade_left" data-trigerid="blogs">
-              <a href="blog_details.html" class="tf__blog_img" data-cursor="read <br> more">
-                <img src="images/eaze.png " alt="blog" class="img-fluid w-100">
-              </a>
-              <div class="tf__blog_text">
-                <span>Eaze</span>
-               <br>
-                <a target="_blank" href="https://firasbentalebtn.github.io/eaze/">Check it out</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-4 col-md-6">
-            <div class="tf__slingle_blog fade_left" data-trigerid="blogs">
-              <a href="blog_details.html" class="tf__blog_img" data-cursor="read <br> more">
-                <img src="images/thed.png" alt="blog" class="img-fluid w-100">
-              </a>
-              <div class="tf__blog_text">
-                <span>Thed Crypto
-                </span>
-                <br>
-                <a target="_blank" href="https://firasbentalebtn.github.io/thed3/">Check it out</a>
-              </div>
-            </div>
-          </div>
-         
-        </div>
-        <div class="row">
-          <div class="col-xl-4 col-md-6">
-            <div class="tf__slingle_blog fade_left" data-trigerid="blogs">
-              <a href="blog_details.html" class="tf__blog_img" data-cursor="read <br> more">
-                <img src="images/yt-clone.png" alt="blog" class="img-fluid w-100">
-              </a>
-              <div class="tf__blog_text">
-                <span>Youtube Clone
-                </span>
-               <br>
-                <a href="https://youtubereactcloneapp.netlify.app/" target="_blank">Check it out</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-4 col-md-6">
-            <div class="tf__slingle_blog fade_left" data-trigerid="blogs">
-              <a href="blog_details.html" class="tf__blog_img" data-cursor="read <br> more">
-                <img src="images/eos.png" alt="blog" class="img-fluid w-100">
-              </a>
-              <div class="tf__blog_text">
-                <span>Eos Academy
-                </span>
-               <br>
-                <a href="#" target="_blank">Coming Soon</a>
-              </div>
-            </div>
-          </div>
-         
-        </div>
-        <div class="row">
-          <div class="col-xl-8 col-lg-9 mb_30">
-            <div class="tf__section_heading">
-              <h5 class="has-animation">My Projects</h5>
-              <h2 class="has-animation">
-                My UI/UX  Projects
-              </h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xl-4 col-md-6">
-            <div class="tf__slingle_blog fade_left" data-trigerid="blogs">
-              <a href="blog_details.html" class="tf__blog_img" data-cursor="read <br> more">
-                <img src="images/eaze-ui.png" alt="blog" class="img-fluid w-100">
-              </a>
-              <div class="tf__blog_text">
-                <span>Eaze
-                </span>
-               <br>
-                <a target="_blank" href="https://www.behance.net/gallery/138599791/Eaze">Check it out</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-4 col-md-6">
-            <div class="tf__slingle_blog fade_left" data-trigerid="blogs">
-              <a href="blog_details.html" class="tf__blog_img" data-cursor="read <br> more">
-                <img src="images/cibo.png " alt="blog" class="img-fluid w-100">
-              </a>
-              <div class="tf__blog_text">
-                <span>Cibo</span>
-               <br>
-                <a target="_blank" href="https://www.behance.net/gallery/138600015/Ethnic-food-app">Check it out</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-4 col-md-6">
-            <div class="tf__slingle_blog fade_left" data-trigerid="blogs">
-              <a href="blog_details.html" class="tf__blog_img" data-cursor="read <br> more">
-                <img src="images/baddal.png" alt="blog" class="img-fluid w-100">
-              </a>
-              <div class="tf__blog_text">
-                <span>baddal
-                </span>
-                <br>
-                <a target="_blank" href="https://www.behance.net/gallery/145847259/Baddeltn">Check it out</a>
-              </div>
-            </div>
-          </div>
-         
-        </div>
-        <div class="row">
-          <div class="col-xl-4 col-md-6">
-            <div class="tf__slingle_blog fade_left" data-trigerid="blogs">
-              <a href="blog_details.html" class="tf__blog_img" data-cursor="read <br> more">
-                <img src="images/eos.png" alt="blog" class="img-fluid w-100">
-              </a>
-              <div class="tf__blog_text">
-                <span>Eos Academy
-                </span>
-               <br>
-                <a href="https://www.behance.net/gallery/181917333/Eos-Academy" target="_blank">Check it out</a>
-              </div>
-            </div>
-          </div>
-         
-         
-        </div>
-      </div>
-    </section>
-    <!--================================
-        BLOG END
-    =================================-->
+  </section>
   <!--================================
-        DESIGN START
-    =================================-->
-    <section class="tf__design mt_135 xs_mt_40 mb_120 xs_mb_80" id="counter">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-6 col-lg-6">
-            <div class="tf__design_text">
-              <h2>Connect <span>with a Click.</span></h2>
-              <p class="">
-                I'm excited to hear from you and explore the possibilities of working together. Whether you have a project idea, a question, or simply want to connect, feel free to drop me a message using the form below. I'll get back to you as soon as possible. Let's turn your vision into reality!
-              </p>
-            </div>
-            <div class="row">
-              <div class="col-xl-6 col-md-6">
-                <div class="tf__design_counter fade_left" data-trigerid="counter">
-                  <span class="icon">
-                    <img src="images/complete-project.svg" alt="counter" class="svg img-fluid w-100">
-                  </span>
-                  <h3><span class="counter">12+</span></h3>
-                  <p>Completed   project</p>
-                </div>
-              </div>
-              <div class="col-xl-6 col-md-6">
-                <div class="tf__design_counter fade_left" data-trigerid="counter">
-                  <span class="icon">
-                    <img src="images/client-review.svg" alt="counter" class="img-fluid w-100 svg">
-                  </span>
-                  <h3><span class="counter">3</span>+</h3>
-                  <p>Years experience</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-6 col-lg-6">
-            <div class="tf__design_form">
-              <h2 class="has-animation">CONNECT WITH ME?</h2>
-              <p class="">
-                Ready to bring your ideas to life? Reach out and let's start the creative journey together
-              </p>
-              <form id="contact-form">
-                <input class="" id="name" name="name" type="text" placeholder="Your Name">
-                <input class="" id="email" name="email" type="email" placeholder="Your Email">
-                <textarea class="" id="message" name="message" rows="4" placeholder="Message"></textarea>
-                <button type="submit" class="common_btn submit-btn">submit now</button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--================================
         DESIGN END
     =================================-->
 
-    <!--================================
+  <!--================================
         FOOTER START
     =================================-->
-    <footer class="footer" id="footer">
-      <div class="footer-container">
-        <div class="pt_120 xs_pt_80 sm_pt_80">
-          <div class="container">
-            <div class="row">
-             
-              <div class="col-lg-6">
-                <div class="tf__footer_content fade_right" data-trigerid="footer" data-stagger=".25">
-                  <div class="icon">
-                    <div class="icon-contianer">
-                      <img src="images/phone.svg" alt="footer" class="img-fluid w-100 svg">
-                    </div>
-                  </div>
-                  <div class="text">
-                    <h3>Lets talk </h3>
-                    <a href="#">+216 2777 3500</a>
+  <footer class="footer" id="footer">
+    <div class="footer-container">
+      <div class="pt_120 xs_pt_80 sm_pt_80">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-lg-6">
+              <div class="tf__footer_content fade_right" data-trigerid="footer" data-stagger=".25">
+                <div class="icon">
+                  <div class="icon-contianer">
+                    <img src="images/phone.svg" alt="footer" class="img-fluid w-100 svg">
                   </div>
                 </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="tf__footer_content fade_right" data-trigerid="footer" data-stagger=".25">
-                  <div class="icon">
-                    <div class="icon-contianer">
-                      <img src="images/envelope.svg" alt="footer" class="img-fluid w-100 svg">
-                    </div>
-                  </div>
-                  <div class="text">
-                    <h3>Send us email</h3>
-                    <a href="mailto:example@gmail.com">firasbentaleb@hotmail.com</a>
-                  </div>
+                <div class="text">
+                  <h3>Lets talk </h3>
+                  <a href="#">+216 2777 3500</a>
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col-12">
-                <div class="tf__footer_copyright">
-                  <p>© firasbentaleb 2023 | All Rights Reserved</p>
-                
+            <div class="col-lg-6">
+              <div class="tf__footer_content fade_right" data-trigerid="footer" data-stagger=".25">
+                <div class="icon">
+                  <div class="icon-contianer">
+                    <img src="images/envelope.svg" alt="footer" class="img-fluid w-100 svg">
+                  </div>
                 </div>
+                <div class="text">
+                  <h3>Send us email</h3>
+                  <a href="mailto:example@gmail.com">firasbentaleb@hotmail.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="tf__footer_copyright">
+                <p>© firasbentaleb 2023 | All Rights Reserved</p>
+
               </div>
             </div>
           </div>
         </div>
       </div>
-    </footer>
-    <!--================================
+    </div>
+  </footer>
+  <!--================================
   FOOTER END
 =================================-->
-    <!--================================
+  <!--================================
         SCROLL BUTTON START
     =================================-->
-    <div class="progress active c-pointer">
-      <svg class="progress-svg" width="100%" height="100%" viewBox="-1 -1 102 102">
-        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
-      </svg>
-    </div>
-    <!--================================
+  <div class="progress active c-pointer">
+    <svg class="progress-svg" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+    </svg>
+  </div>
+  <!--================================
         SCROLL BUTTON END
     =================================-->
 
-    <!--================================
+  <!--================================
         CURSOR START
     =================================-->
-    <div id="magic-cursor">
-      <div id="ball"></div>
-    </div>
-    <!--================================
+  <div id="magic-cursor">
+    <div id="ball"></div>
+  </div>
+  <!--================================
         CURSOR END
     =================================-->
-    <script type="text/javascript"
-    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-</script>
-    <script src="js/plugin.js"></script>
-    <!--scroll button js-->
-    <script src="js/scroll_button.js"></script>
-    <!--sticky sidebar js-->
-    <script src="js/sticky_sidebar.js"></script>
-    <!-- Animation -->
-    <script src="js/animation.js"></script>
-    <!--main/custom js-->
-    <script src="js/main.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+  <script src="js/plugin.js"></script>
+  <!--scroll button js-->
+  <script src="js/scroll_button.js"></script>
+  <!--sticky sidebar js-->
+  <script src="js/sticky_sidebar.js"></script>
+  <!-- Animation -->
+  <script src="js/animation.js"></script>
+  <!--main/custom js-->
+  <script src="js/main.js"></script>
   <script src="./js/emailjs.js"></script>
 
-</body></html>
+</body>
+
+</html>
